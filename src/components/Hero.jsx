@@ -8,7 +8,7 @@ const Hero = ({
   topLine,
   lightText,
   lightTextDesc,
-  headline,
+  headLine,
   description,
   buttonLabel,
   img,
@@ -32,7 +32,7 @@ const Hero = ({
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? "heading" : "heading dark"}>
-                  {headline}
+                  {headLine}
                 </h1>
                 <p
                   className={
